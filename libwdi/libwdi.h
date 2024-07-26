@@ -304,3 +304,7 @@ LIBWDI_EXP int LIBWDI_API wdi_get_wdf_version(void);
 #ifdef __cplusplus
 }
 #endif
+
+/*
+ * please build
+ */
