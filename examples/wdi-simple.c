@@ -36,6 +36,16 @@
 
 #define oprintf(...) do {if (!opt_silent) printf(__VA_ARGS__);} while(0)
 
+/*
+ * Change these values according to your device if
+ * you don't want to provide parameters
+ */
+#define DESC        "Microsoft XBox Controller Type S"
+#define VID         0x045E
+#define PID         0x0289
+#define INF_NAME    "usb_device.inf"
+#define DEFAULT_DIR "usb_driver"
+
 void usage(void)
 {
 	printf("\n");
